@@ -9,7 +9,7 @@ This document outlines the architecture and engineering design for the **GCP Ret
 
 | Component / Function | GCP Managed Service | Local Equivalent |
 | :--- | :--- | :--- |
-| **Object Storage** | Cloud Storage (GCS) | MinIO |
+| **Object Storage** | Cloud Storage (GCS) | Local filesystem |
 | **Data Processing / Pipeline** | Dataflow | Apache Beam Direct Runner |
 | **Data Warehouse** | BigQuery | DuckDB |
 | **Dimensional Data Model** | BigQuery Dimensional Model | DuckDB / PostgreSQL |
